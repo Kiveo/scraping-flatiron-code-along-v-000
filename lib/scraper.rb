@@ -21,6 +21,7 @@ class Scraper
     binding.pry
   end
 # doc.css(".post").first.css("h2").text
+# doc.css(".post").first.css(".date").text
 end #end of class
 
 Scraper.new.get_page

@@ -1,6 +1,6 @@
 
 class Course
-  attr_accessors :title
+  attr_accessor :title
 
   def initialize(title)
     @title = title

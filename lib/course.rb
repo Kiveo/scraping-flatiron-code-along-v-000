@@ -1,7 +1,8 @@
 
-class Course 
-  # attr_accessors 
-def initialize 
+class Course
+  attr_accessors :title
+  
+def initialize
 end
 
 end

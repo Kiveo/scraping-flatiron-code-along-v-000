@@ -23,7 +23,7 @@ class Scraper
       course.schedule = post.first.css(".date").text
       course.description = post.first.css("p").text
     end
-    binding.pry
+    # binding.pry
   end
 
 end #end of class
